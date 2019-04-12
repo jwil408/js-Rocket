@@ -1,4 +1,15 @@
-var sayMyName = function(name) {
+// hey this is an invisible comment.
+var doCoolStuff = function () {
+		var currentClassName = document.getElementById('cool').className;
+
+		if (currentClassName == 'cool') {
+			document.getElementById('cool').className = 'cool red';
+		} else {
+			document.getElementById('cool').className = 'cool';
+		}
+
+}
+var sayMyName = function (name) {
 	alert('My Name Is: '+name);
 }
 
